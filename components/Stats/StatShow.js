@@ -38,22 +38,48 @@ function StatShow() {
 
   return (
     <>
-      <div className="relative w-full rounded" style={{ padding: "20px" }}>
-        <tr>
-          <td className="relative">
-            <img src="/img/images/choose_file.png" style={{ width: "300px" ,height: "200px",paddingRight:"12px"}} />
-            <div className="text-fade mx-1"></div>
-          </td>
-          {json_data.map((items, i) => (
-            <td className="relative">
+      <div className="w-full flex flex-wrap justify-start items-center p-4">
+        {/* add_img */}
+        <div
+          className=" flex flex-col justify-center items-center mb-4"
+          style={{ width: "20%" }}
+        >
+          <div className=" border-2 border-black flex flex-col justify-center items-center border-dashed" style={{width: '220px', height:'220px' }}>
+            <i className="fas fa-plus text-6xl "></i>
+            {/* <img src="" style={{ width: "220px", height: "220px" }} /> */}
+            <div
+              className="px-4 py-2 w-full text-center"
+              style={{
+                backgroundColor: "rgba(255,255,255,0.5)",
+              }}
+            >
+              <p className=" text-lg font-light text-black">
+                Create a new release
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* map_img */}
+        {json_data.map((items, i) => (
+          <div className="flex justify-center mb-4" style={{ width: "20%" }}>
+            <div className=" relative ">
               <img
                 src={items.image_src}
-                style={{ width: "300px", height: "200px" }}
+                style={{ width: "220px", height: "220px" }}
               />
-              <div className="text-fade mx-1">{items.name_artist}</div>
-            </td>
-          ))}
-        </tr>
+              <div
+                className=" absolute bottom-0 px-4 py-2 w-full text-center"
+                style={{
+                  backgroundColor: "rgba(255,255,255,0.5)",
+                }}
+              >
+                <p className=" text-lg font-bold text-black">
+                  {items.name_artist}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </>
   );
