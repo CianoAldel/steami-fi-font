@@ -167,17 +167,18 @@ export default function CardTable({ color }) {
                 {/* Title / Artist */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src="/img/WonderZone.jpg"
+                    src="/img/vue.jpg"
                     className="h-8 w-8 bg-white rounded-full border"
                     alt="..."
                   ></img>
                   <span
                     className={
                       "ml-3 font-bold " +
-                      +(color === "light" ? "text-blueGray-600" : "text-white")
+                      +(color === "light" ? "text-blue-600" : "text-white")
                     }
                   >
-                    วัยรุ่น FiveM
+                    Music : Test
+                    <br /> By : Test
                   </span>
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
@@ -185,12 +186,12 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Lable */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  By วัยรุ่น OC
+                  Music studio Mockup
                 </td>
                 {/* TimeZone */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
                   {/* <TableDropdown /> */}
-                  10/22/2022
+                  12/1/2022
                 </td>
                 {/* # OF track */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
@@ -209,7 +210,7 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Delivered */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
-                <img
+                  <img
                     src="/img/worldiconreen.png"
                     className="h-9 w-9 bg-white"
                     alt="..."
@@ -249,7 +250,7 @@ export default function CardTable({ color }) {
                 {/* Title / Artist */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src="/img/team-4-470x470.png"
+                    src="/img/vue.jpg"
                     className="h-8 w-8 bg-white rounded-full border"
                     alt="..."
                   ></img>
@@ -259,7 +260,8 @@ export default function CardTable({ color }) {
                       +(color === "light" ? "text-blueGray-600" : "text-white")
                     }
                   >
-                    วัยรุ่น FiveM
+                    Music : Test
+                    <br /> By : Test
                   </span>
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
@@ -267,7 +269,8 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Lable */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  By วัยรุ่น OC
+                  Music studio Mockup
+
                 </td>
                 {/* TimeZone */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
@@ -291,7 +294,7 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Delivered */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
-                <img
+                  <img
                     src="/img/worldiconreen.png"
                     className="h-9 w-9 bg-white"
                     alt="..."
@@ -331,7 +334,7 @@ export default function CardTable({ color }) {
                 {/* Title / Artist */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src="/img/GachaCardIcon.png"
+                    src="/img/vue.jpg"
                     className="h-8 w-8 bg-white rounded-full border"
                     alt="..."
                   ></img>
@@ -341,7 +344,8 @@ export default function CardTable({ color }) {
                       +(color === "light" ? "text-blueGray-600" : "text-white")
                     }
                   >
-                    baby Tribble
+                    Music : Test
+                    <br /> By : Test
                   </span>
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
@@ -349,7 +353,8 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Lable */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  By วัยรุ่น OC
+                  Music Studio Mockup
+
                 </td>
                 {/* TimeZone */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
@@ -413,7 +418,7 @@ export default function CardTable({ color }) {
                 {/* Title / Artist */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src="/img/sketch.jpg"
+                    src="/img/vue.jpg"
                     className="h-8 w-8 bg-white rounded-full border"
                     alt="..."
                   ></img>
@@ -423,7 +428,8 @@ export default function CardTable({ color }) {
                       +(color === "light" ? "text-blueGray-600" : "text-white")
                     }
                   >
-                    ดับเบิ้ลHee
+                    Music : Test
+                    <br /> By : Test
                   </span>
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
@@ -431,18 +437,8 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Lable */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  {/* <div className="flex items-center">
-                    <span className="mr-2">By วัยรุ่น OC</span>
-                    <div className="relative w-full">
-                      <div className="overflow-hidden h-2 text-xs flex rounded bg-red-200">
-                        <div
-                          style={{ width: "60%" }}
-                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
-                        ></div>
-                      </div>
-                    </div>
-                  </div> */}
-                  By วัยรุ่น OC
+                  Music Studio Mockup
+
                 </td>
                 {/* TimeZone */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
@@ -466,7 +462,7 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Delivered */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
-                <img
+                  <img
                     src="/img/worldiconreen.png"
                     className="h-9 w-9 bg-white"
                     alt="..."
@@ -506,7 +502,7 @@ export default function CardTable({ color }) {
                 {/* Title / Artist */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src="/img/WonderZone.jpg"
+                    src="/img/vue.jpg"
                     className="h-8 w-8 bg-white rounded-full border"
                     alt="..."
                   ></img>
@@ -516,7 +512,8 @@ export default function CardTable({ color }) {
                       +(color === "light" ? "text-blueGray-600" : "text-white")
                     }
                   >
-                    วัยรุ่น FiveM
+                    เพลง : Test
+                    <br /> ศิลปิน : Test
                   </span>
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
@@ -524,12 +521,14 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Lable */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  By วัยรุ่น OC
+                  Music Studio Mockup
+                  <br />
+
                 </td>
                 {/* TimeZone */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
                   {/* <TableDropdown /> */}
-                  10/22/2022
+                  7/8/2022
                 </td>
                 {/* # OF track */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
@@ -548,7 +547,7 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Delivered */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
-                <img
+                  <img
                     src="/img/worldiconreen.png"
                     className="h-9 w-9 bg-white"
                     alt="..."
