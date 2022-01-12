@@ -1,0 +1,9 @@
+.text-fade {
+
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background-color: rgba(182, 182, 182, 0.3);
+    width: 100%;
+    text-align: center;
+}

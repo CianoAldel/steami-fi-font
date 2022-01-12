@@ -8,6 +8,7 @@ import HeaderStats from "components/Headers/HeaderStats.js";
 import FooterAdmin from "components/Footers/FooterAdmin.js";
 
 export default function Admin({ children }) {
+
   return (
     <>
       <Sidebar />
