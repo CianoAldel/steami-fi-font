@@ -3,31 +3,31 @@ import React from "react";
 const json_data = [
   {
     name_music: "",
-    name_artist: "โจ๋ โซนฮาน",
+    name_artist: "Foo Fighters",
     count_steam: "",
     image_src: "/img/images/5.jpg",
   },
   {
     name_music: "",
-    name_artist: "พี่บอม วันเดอร์โซน",
+    name_artist: "Honey",
     count_steam: "",
     image_src: "/img/images/1.jpg",
   },
   {
     name_music: "",
-    name_artist: "พี่ท็อป วินเทอร์โซน",
+    name_artist: "Somean",
     count_steam: "",
     image_src: "/img/images/2.jpg",
   },
   {
     name_music: "",
-    name_artist: "โซนคน อมตะ",
+    name_artist: "Tree of Life",
     count_steam: "",
     image_src: "/img/images/3.jpg",
   },
   {
     name_music: "",
-    name_artist: "พี่ตี้",
+    name_artist: "Weekend",
     count_steam: "",
     image_src: "/img/images/4.jpg",
   },
