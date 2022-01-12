@@ -12,31 +12,31 @@ export default function CardTable({ color }) {
       {/* tag filter */}
       <div className="relative w-full text-white flex justify-start items-center">
         <div className=" w-1/12 p-3 bg-white text-black ">
-          <p>TOP STACK</p>
+          <p><i class="fas fa-dot-circle"></i> TOP STACK</p>
         </div>
         <div className=" w-1/12 p-3  text-white cursor-pointer ">
-          <p>Top Releases</p>
+          <p><i class="far fa-calendar-alt"></i> Top Releases</p>
         </div>
         <div className=" w-1/12 p-3  text-white cursor-pointer ">
-          <p>Top Artics</p>
+          <p><i class="fab fa-keybase"></i> Top Artics</p>
         </div>
         <div className=" w-1/12 p-3  text-white cursor-pointer ">
-          <p>Top Labels</p>
+          <p><i class="fas fa-user-friends"></i> Top Labels</p>
         </div>
         <div className=" w-1/12 p-3  text-white cursor-pointer ">
-          <p>Top Playlist Tracks</p>
+          <p><i class="fas fa-outdent"></i> Top Playlist Tracks</p>
         </div>
         <div className=" w-1/12 p-3  text-white cursor-pointer ">
-          <p>Top Video</p>
+          <p><i class="fas fa-play-circle"></i> Top Video</p>
         </div>
         <div className=" w-1/12 p-3  text-white cursor-pointer ">
-          <p>Top Ringtones</p>
+          <p><i class="fas fa-tty"></i> Top Ringtones</p>
         </div>
         <div className=" w-1/12 p-3  text-white cursor-pointer ">
-          <p>Top Stores</p>
+          <p><i class="fas fa-shopping-basket"></i> Top Stores</p>
         </div>
         <div className=" w-1/12 p-3  text-white cursor-pointer ">
-          <p>Top Territories</p>
+          <p><i class="fas fa-map-marker-alt"></i> Top Territories</p>
         </div>
       </div>
       {/* Table */}
