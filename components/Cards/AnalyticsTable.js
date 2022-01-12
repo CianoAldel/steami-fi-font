@@ -8,6 +8,13 @@ import TableDropdown from "components/Dropdowns/TableDropdown.js";
 export default function CardTable({ color }) {
   return (
     <>
+
+      {/* tag filter */}
+      <div className="relative w-full text-2xl text-white">
+        <h1>sdfsfsd</h1>
+
+      </div>
+      {/* Table */}
       <div
         className={
           "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded " +
