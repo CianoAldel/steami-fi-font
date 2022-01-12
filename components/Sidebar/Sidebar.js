@@ -136,9 +136,6 @@ export default function Sidebar() {
                   </a>
                 </Link>
               </li>
-
-              
-
               <li className="items-center">
                 <Link href="/admin/tables">
                   <a
@@ -187,7 +184,7 @@ export default function Sidebar() {
                 </Link>
               </li>
               
-              <li className="items-center">
+              {/* <li className="items-center">
                 <Link href="/admin/settings">
                   <a
                     href="#pablo"
@@ -209,7 +206,7 @@ export default function Sidebar() {
                     Stats
                   </a>
                 </Link>
-              </li>
+              </li> */}
 
               <li className="items-center">
                 <Link href="/admin/report">
@@ -237,14 +234,14 @@ export default function Sidebar() {
             </ul>
 
             {/* Divider */}
-            <hr className="my-4 md:min-w-full" />
+            {/* <hr className="my-4 md:min-w-full" /> */}
             {/* Heading */}
-            <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
+            {/* <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
               Auth Layout Pages
-            </h6>
+            </h6> */}
             {/* Navigation */}
 
-            <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
+            {/* <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
                 <Link href="/auth/login">
                   <a
@@ -268,17 +265,17 @@ export default function Sidebar() {
                   </a>
                 </Link>
               </li>
-            </ul>
+            </ul> */}
 
             {/* Divider */}
-            <hr className="my-4 md:min-w-full" />
+            {/* <hr className="my-4 md:min-w-full" /> */}
             {/* Heading */}
-            <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
+            {/* <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
               No Layout Pages
-            </h6>
+            </h6> */}
             {/* Navigation */}
 
-            <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
+            {/* <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
                 <Link href="/landing">
                   <a
@@ -303,7 +300,7 @@ export default function Sidebar() {
                 </Link>
               </li>
             </ul>
-            
+             */}
           </div>
         </div>
       </nav>
