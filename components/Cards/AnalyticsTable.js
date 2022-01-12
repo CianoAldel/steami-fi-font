@@ -10,14 +10,39 @@ export default function CardTable({ color }) {
     <>
 
       {/* tag filter */}
-      <div className="relative w-full text-2xl text-white">
-        <h1>sdfsfsd</h1>
-
+      <div className="relative w-full text-white flex justify-start items-center">
+        <div className=" w-1/12 p-3 bg-white text-black ">
+          <p>TOP STACK</p>
+        </div>
+        <div className=" w-1/12 p-3  text-white cursor-pointer ">
+          <p>Top Releases</p>
+        </div>
+        <div className=" w-1/12 p-3  text-white cursor-pointer ">
+          <p>Top Artics</p>
+        </div>
+        <div className=" w-1/12 p-3  text-white cursor-pointer ">
+          <p>Top Labels</p>
+        </div>
+        <div className=" w-1/12 p-3  text-white cursor-pointer ">
+          <p>Top Playlist Tracks</p>
+        </div>
+        <div className=" w-1/12 p-3  text-white cursor-pointer ">
+          <p>Top Video</p>
+        </div>
+        <div className=" w-1/12 p-3  text-white cursor-pointer ">
+          <p>Top Ringtones</p>
+        </div>
+        <div className=" w-1/12 p-3  text-white cursor-pointer ">
+          <p>Top Stores</p>
+        </div>
+        <div className=" w-1/12 p-3  text-white cursor-pointer ">
+          <p>Top Territories</p>
+        </div>
       </div>
       {/* Table */}
       <div
         className={
-          "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded " +
+          "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg " +
           (color === "light" ? "bg-white" : "bg-blueGray-700 text-white")
         }
       >
@@ -30,7 +55,7 @@ export default function CardTable({ color }) {
                   (color === "light" ? "text-blueGray-700" : "text-white")
                 }
               >
-                Top Stack
+                {/* Write  "..."  here */}
               </h3>
             </div>
           </div>
@@ -170,7 +195,7 @@ export default function CardTable({ color }) {
 
               </tr>
             </thead>
-            
+
             <tbody>
               {/* List 1 */}
               <tr>
@@ -197,7 +222,7 @@ export default function CardTable({ color }) {
                   7Years a Go
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
-                Gemee
+                  Gemee
                   <br /> 3216468465165
                 </td>
                 {/* Release Data */}
@@ -254,7 +279,7 @@ export default function CardTable({ color }) {
                   7Years a Go
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
-                Gemee
+                  Gemee
                   <br /> 3216468465165
                 </td>
                 {/* Release Data */}
@@ -311,7 +336,7 @@ export default function CardTable({ color }) {
                   7Years a Go
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
-                Gemee
+                  Gemee
                   <br /> 3216468465165
                 </td>
                 {/* Release Data */}
@@ -368,7 +393,7 @@ export default function CardTable({ color }) {
                   7Years a Go
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
-                Gemee
+                  Gemee
                   <br /> 3216468465165
                 </td>
                 {/* Release Data */}
@@ -425,7 +450,7 @@ export default function CardTable({ color }) {
                   7Years a Go
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
-                Gemee
+                  Gemee
                   <br /> 3216468465165
                 </td>
                 {/* Release Data */}
