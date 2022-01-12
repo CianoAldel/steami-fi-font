@@ -163,8 +163,9 @@ export default function CardTable({ color }) {
 
               </tr>
             </thead>
-            {/* List 1 */}
+            
             <tbody>
+              {/* List 1 */}
               <tr>
                 {/* Type */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
@@ -186,52 +187,267 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Artist */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center ">
-                  By : Test
+                  7Years a Go
                 </td>
-                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <div className="flex"></div>
-                </td>
-                {/* Lable */}
-                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  Music studio Mockup
-                </td>
-                {/* TimeZone */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
-                  {/* <TableDropdown /> */}
-                  12/1/2022
+                Gemee
+                  <br /> 3216468465165
                 </td>
-                {/* # OF track */}
+                {/* Release Data */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
-                  1 Track
+                  06/27/2021
                 </td>
-                {/* UPC / CATALOG NUMBER */}
+                {/* Audio Streams */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
-                  UPC : empty
-                  <br /> Cat# : empty
+                  467
                 </td>
-                {/* Promotion */}
+                {/* % Stream */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
-                  <a href="#" style={{ color: "blue" }}>
-                    Get link
-                  </a>
+                  30.83%
                 </td>
-                {/* Delivered */}
+                {/* Unique Listener */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  90
+                </td>
+                {/* Stream Per User */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  3.41
+                </td>
+                {/* Tracks */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  0
+                </td>
+                {/* Shazam */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  0
+                </td>
+              </tr>
+              {/* List 2 */}
+              <tr>
+                {/* Type */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  2.
+                </td>
+                {/* Title img */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src="/img/worldiconreen.png"
-                    className="h-9 w-9 bg-white"
+                    src="/img/vue.jpg"
+                    className="h-8 w-8"
                     alt="..."
                   ></img>
-                  <span
-                    className={
-                      "ml-3 font-bold " +
-                      +(color === "light" ? "text-blueGray-600" : "text-white")
-                    }
-                  >
-                    240 Terrs.
-                    <br /> 0 Stroes.
-                  </span>
 
+                </td>
+                {/* Title Text */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left ">
+                  Music : Test
+                  <br /> PD : Test-200-750
+                </td>
+                {/* Artist */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center ">
+                  7Years a Go
+                </td>
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                Gemee
+                  <br /> 3216468465165
+                </td>
+                {/* Release Data */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  06/27/2021
+                </td>
+                {/* Audio Streams */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  467
+                </td>
+                {/* % Stream */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  30.83%
+                </td>
+                {/* Unique Listener */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  90
+                </td>
+                {/* Stream Per User */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  3.41
+                </td>
+                {/* Tracks */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  0
+                </td>
+                {/* Shazam */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  0
+                </td>
+              </tr>
+              {/* List 3 */}
+              <tr>
+                {/* Type */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  3.
+                </td>
+                {/* Title img */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
+                  <img
+                    src="/img/vue.jpg"
+                    className="h-8 w-8"
+                    alt="..."
+                  ></img>
+
+                </td>
+                {/* Title Text */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left ">
+                  Music : Test
+                  <br /> PD : Test-200-750
+                </td>
+                {/* Artist */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center ">
+                  7Years a Go
+                </td>
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                Gemee
+                  <br /> 3216468465165
+                </td>
+                {/* Release Data */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  06/27/2021
+                </td>
+                {/* Audio Streams */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  467
+                </td>
+                {/* % Stream */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  30.83%
+                </td>
+                {/* Unique Listener */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  90
+                </td>
+                {/* Stream Per User */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  3.41
+                </td>
+                {/* Tracks */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  0
+                </td>
+                {/* Shazam */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  0
+                </td>
+              </tr>
+              {/* List 4 */}
+              <tr>
+                {/* Type */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  4.
+                </td>
+                {/* Title img */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
+                  <img
+                    src="/img/vue.jpg"
+                    className="h-8 w-8"
+                    alt="..."
+                  ></img>
+
+                </td>
+                {/* Title Text */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left ">
+                  Music : Test
+                  <br /> PD : Test-200-750
+                </td>
+                {/* Artist */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center ">
+                  7Years a Go
+                </td>
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                Gemee
+                  <br /> 3216468465165
+                </td>
+                {/* Release Data */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  06/27/2021
+                </td>
+                {/* Audio Streams */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  467
+                </td>
+                {/* % Stream */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  30.83%
+                </td>
+                {/* Unique Listener */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  90
+                </td>
+                {/* Stream Per User */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  3.41
+                </td>
+                {/* Tracks */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  0
+                </td>
+                {/* Shazam */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  0
+                </td>
+              </tr>
+              {/* List 5 */}
+              <tr>
+                {/* Type */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  5.
+                </td>
+                {/* Title img */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
+                  <img
+                    src="/img/vue.jpg"
+                    className="h-8 w-8"
+                    alt="..."
+                  ></img>
+
+                </td>
+                {/* Title Text */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left ">
+                  Music : Test
+                  <br /> PD : Test-200-750
+                </td>
+                {/* Artist */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center ">
+                  7Years a Go
+                </td>
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                Gemee
+                  <br /> 3216468465165
+                </td>
+                {/* Release Data */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  06/27/2021
+                </td>
+                {/* Audio Streams */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  467
+                </td>
+                {/* % Stream */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  30.83%
+                </td>
+                {/* Unique Listener */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  90
+                </td>
+                {/* Stream Per User */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  3.41
+                </td>
+                {/* Tracks */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  0
+                </td>
+                {/* Shazam */}
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-center">
+                  0
                 </td>
               </tr>
             </tbody>
